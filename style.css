@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+}
+
+.right-container {
+    display: grid;
+    grid-template-rows: 100vh;
+}
+
+.left-container {
+    display: grid;
+    grid-template-rows: 20vh 80vh;
+}
+
+.sidebar {
+    background-color: lightblue;
+}
+
+.header {
+    background-color: wheat;
+}
+
+.main-content {
+    background-color: grey;
+}
